@@ -7,7 +7,7 @@ if not component.isAvailable("modem") then
   return
 end
 local m = component.modem
-port = 556
+port = 444
 local workspace, window, menu = system.addWindow(GUI.filledWindow(1, 1, 60, 20, 0xE1E1E1))
 local localization = system.getCurrentScriptLocalization()
 local layout = window:addChild(GUI.layout(1, 1, window.width, window.height, 1, 1))
